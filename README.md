@@ -12,8 +12,8 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 Simply clone the repository and run the main file:
 
 ```sh
-git clone https://github.com/SpEcHiDe/PublicLeech.git
-cd PublicLeech
+git clone https://github.com/Aid-3n/Torrent-2-File-TG
+cd Torrent-2-File-TG
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
@@ -40,9 +40,9 @@ class Config(Config):
 
 * `APP_ID`
 * `API_HASH`: Get these two values from [my.telegram.org/apps](https://my.telegram.org/apps).
-  * N.B.: if Telegram is blocked by your ISP, try our [Telegram bot](https://telegram.dog/UseTGXBot) to get the IDs.
+  * N.B.: if Telegram is blocked by your ISP, try @USETGXBOT to get the IDs.
 
-* `AUTH_CHANNEL`: Create a Super Group in Telegram, add `@GoogleIMGBot` to the group, and send /id in the chat, to get this value.
+* `AUTH_CHANNEL`: Create a Super Group in Telegram, add `@missrose_bot` to the group, and send /id in the chat, to get this value.
 
 ##### Optional Configuration Variables
 
@@ -87,17 +87,6 @@ class Config(Config):
 
 * send any one of the available command, as a reply to a valid link.
 
-* if file is larger than 1500MB, [read this](https://t.me/c/1434259219/113).
-
-* if file is a TAR archive, [read this](https://t.me/c/1434259219/104) to know how to uncompress.
-
-
-## Issues or Feature Requests
-
-* search for known issues, [here](https://t.me/c/1434259219/118).
-
-* add issues / feature requests, [here](https://github.com/SpEcHiDe/PublicLeech/issues/new).
-
 
 ## Credits, and Thanks to
 
@@ -105,4 +94,4 @@ class Config(Config):
 * [Robots](https://telegram.dog/Robots) for their [@UploadBot](https://telegram.dog/UploadBot)
 * [@AjeeshNair](https://telegram.dog/AjeeshNait) for his [torrent.ajee.sh](https://torrent.ajee.sh)
 * [@gotstc](https://telegram.dog/gotstc), @aryanvikash, [@HasibulKabir](https://telegram.dog/HasibulKabir) for their TORRENT groups
-* [![CopyLeft](https://telegra.ph/file/b514ed14d994557a724cb.jpg)](https://telegra.ph/file/fab1017e21c42a5c1e613.mp4 "CopyLeft Credit Video")
+

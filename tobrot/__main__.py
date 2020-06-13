@@ -84,7 +84,7 @@ if __name__ == "__main__" :
     #
     exec_message_handler = MessageHandler(
         exec_message_f,
-        filters=Filters.command(["execfile"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["exec"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(exec_message_handler)
     #

@@ -1,5 +1,12 @@
 # Telegram Torrent Leecher 🔥🤖
-[<b>JOIN OUR TORRENT LEECH GROUP<b>](https://telegram.dog/joinchat/OV5y_FarWaGaNYUIYr6J9w)
+
+## For Support join here [All Channel](https://telegram.dog/sk4s_allchannel)
+
+### Working example group [Leech Here](https://telegram.dog/PublicLeechGroup)
+
+### Credit goes to SpEcHiDe for his [Publicleech](https://github.com/SpEcHiDe/PublicLeech)
+
+## Thank [SK4S](https://github.com/sachink4s/Leech-GDrive) for the added Cool features 🤩
 
 A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
 
@@ -13,7 +20,7 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 Simply clone the repository and run the main file:
 
 ```sh
-git clone https://github.com/Aid-3n/Torrent-2-File-TG
+git clone https://github.com/sachink4s/LeechToFile
 cd Torrent-2-File-TG
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
